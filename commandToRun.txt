@@ -1,0 +1,8 @@
+py beampip.py --runner DirectRunner 
+--staging_location gs://bucket2120/staging 
+--temp_location gs://bucket2120/temp 
+--project prime-heuristic-299502 
+--region us-east1 
+--input_subscription projects/prime-heuristic-299502/subscriptions/demo_sub 
+--output_table prime-heuristic-299502:demo.demotable 
+--streaming
